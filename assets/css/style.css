@@ -90,3 +90,23 @@ body{
       background-color: #727171eb;
       margin: auto;
     }
+
+
+                      /*                 Projetos                 */
+
+    .Selec-Pro h1{
+      font-size: 3vw;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+
+    .Selec-Pro p{
+      display: flex;
+      width: 20vw;
+      margin: 0;
+      border-bottom: 2px solid #1345fd;
+      color: #1345fd;
+      justify-content: center;
+      padding-bottom: 7px;
+    }
