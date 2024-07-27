@@ -31,7 +31,30 @@ body{
   /* MENU NAVEGAÇÃO */
 
   .nav{
-    width: 50%;
+    width: 55%;
     height: 100%;
     background-color: #58004d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav{
+    margin-top: 35px;
+  }
+
+  ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: rgb(10, 10, 10);
+    margin: 0;
+  }
+  li{
+    margin: 10px;
+  }
+  a{
+    padding: 10px;
+    color: aliceblue;
+    font-size: 130%;
   }
