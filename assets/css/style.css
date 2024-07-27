@@ -6,8 +6,7 @@ body{
 .container{
     margin: 0 auto;
     width: 85vw;
-    height: 7vw;
-    /* background-color: cadetblue; */
+
     padding-top: 20px;
 }
 
@@ -94,6 +93,12 @@ body{
 
                       /*                 Projetos                 */
 
+    .Selec-Pro{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    }
+
     .Selec-Pro h1{
       font-size: 3vw;
       display: flex;
@@ -109,4 +114,24 @@ body{
       color: #1345fd;
       justify-content: center;
       padding-bottom: 7px;
+      
+    }
+
+    .Selec-Pro section{
+      display: flex;
+      flex-wrap: wrap;
+      width: 48vw;
+      margin-top: 15px;
+
+}
+    
+
+    .Projetos{
+      width: 15vw;
+      height: 15vw;
+      background-color: #1345fd;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
