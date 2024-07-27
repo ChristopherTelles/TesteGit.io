@@ -11,7 +11,14 @@ body{
     padding-top: 20px;
 }
 
- /* MENU COMPLETO */
+
+
+
+           /*               MENU COMPLETO                */
+  .menu{
+    padding-bottom: 15px;
+  }
+  
  .menu-nav{
     display: flex;
     width: 100%;
@@ -20,7 +27,8 @@ body{
  }
 
 
- /* MENU LOGO */
+          /*                   MENU LOGO                       */
+
 
  .logo{
     width: 20%;
@@ -36,7 +44,9 @@ body{
   height: 95px;
 }
 
-  /* MENU NAVEGAÇÃO */
+
+             /*                      MENU NAVEGAÇÃO                */
+
 
   .nav{
     width: 55%;
@@ -62,6 +72,21 @@ body{
   }
   a{
     padding: 10px;
-    color: rgb(0, 0, 0);
+    color: #2e2e2e;
     font-size: 130%;
+    text-decoration: none;
   }
+  a:hover{
+    border-bottom: solid 2px rgb(27, 78, 243);
+    color: rgb(27, 78, 243);
+  }
+
+
+                  /*                 linha                 */
+  
+    .linha{
+      width: 70%;
+      height: 1px;
+      background-color: #727171eb;
+      margin: auto;
+    }
