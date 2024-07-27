@@ -10,6 +10,20 @@ body{
     padding-top: 20px;
 }
 
+/* icone das habilidades */
+.icon-conf{
+  width: 5vw;
+  height: 5vw;
+  /* background-color: aquamarine; */
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.icon-titulo{
+  background-image: url(../icon/task-management.png);
+}
 
 
 
@@ -100,22 +114,15 @@ body{
     }
 
     .titulo{
+      height: 4vw;
+      border-bottom: 1px solid #1345fd;
       font-size: 3vw;
       display: flex;
       justify-content: center;
-      margin: 0;
+      margin-top: 15px;
+      align-items: center;
     }
 
-    .titulo-p{
-      display: flex;
-      width: 20vw;
-      margin: 0;
-      border-bottom: 2px solid #1345fd;
-      color: #1345fd;
-      justify-content: center;
-      padding-bottom: 7px;
-      
-    }
 
     .Selec-Pro section{
       display: flex;
@@ -151,9 +158,32 @@ body{
       align-items: center;
     }
 
-.titulo-p{
-  margin-top: 5vw;
-  margin-bottom: 5vw;
-}
+    /*                    HABILIDADES                 */
 
+    .titulo-p{
+      display: flex;
+      width: 13vw;
+      margin: 0;
+      color: #1345fd;
+      justify-content: center;
+      
+    }
+    .titulo-h{
+      width: 22vw;
+    }
+
+    .sobre-tec {
+      margin-top: 25px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .titulo-hab{
+    width: 30vw;
+  }
+  .icon-hab{
+    margin-bottom: 15px;
+    background-image: url(../icon/hab.png);
+
+  }
     
