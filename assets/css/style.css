@@ -176,7 +176,9 @@ body{
     .sobre-tec {
       margin-top: 30px;
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
   }
 
   .titulo-hab{
@@ -186,5 +188,21 @@ body{
     margin-bottom: 15px;
     background-image: url(../icon/hab.png);
 
+  }
+
+  .hab-cursos{
+    width: 100%;
+    /* aqui é só pra ter noção do tamanho */
+    height: 20vw; 
+    background-color: #1345fd;
+  }
+
+
+
+
+  /*                          SOBRE MIM                         */
+
+  .icon-eu{
+    background-image: url(../icon/id-card.png);
   }
     
