@@ -1,55 +1,47 @@
-body{
-    margin: 0 auto;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-.container{
-    margin: 0 auto;
-    width: 80vw;
-
-    padding-top: 20px;
+body {
+  margin: 0 auto;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* icone das habilidades */
-.icon-conf{
+.container {
+  margin: 0 auto;
+  width: 80vw;
+  padding-top: 20px;
+}
+
+.icon-conf {
   width: 5vw;
   height: 5vw;
-  /* background-color: aquamarine; */
   margin-bottom: 25px;
   background-size: cover;
   background-position: center;
-
 }
 
-.icon-titulo{
+.icon-titulo {
   background-image: url(../icon/task-management.png);
 }
 
+.menu {
+  padding-bottom: 15px;
+}
 
+.menu-nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
 
-           /*               MENU COMPLETO                */
-  .menu{
-    padding-bottom: 15px;
-  }
-  
- .menu-nav{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
- }
+.logo {
+  width: 20%;
+  height: 100%;
+}
 
-
-          /*                   MENU LOGO                       */
-
-
- .logo{
-    width: 20%;
-    height: 100%;
-    /* background-color: #4CAF50; */
- }
-
- .img-logo {
+.img-logo {
   background-image: url(../img/logo2.png);
   background-size: cover;
   background-position: center;
@@ -57,152 +49,139 @@ body{
   height: 95px;
 }
 
-
-             /*                      MENU NAVEGAÇÃO                */
-
-
-  .nav{
-    width: 55%;
-    height: 100%;
-    /* background-color: #58004d; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  nav{
-    margin-top: 35px;
-  }
-
-  ul{
-    width: 100%;
-    display: flex;
-    list-style: none;
-    margin: 0;
-  }
-  li{
-    margin: 10px;
-  }
-  a{
-    padding: 10px;
-    color: #2e2e2e;
-    font-size: 130%;
-    text-decoration: none;
-  }
-  a:hover{
-    border-bottom: solid 2px rgb(27, 78, 243);
-    color: rgb(27, 78, 243);
-  }
-
-
-                  /*                 linha                 */
-  
-    .linha{
-      width: 70%;
-      height: 1px;
-      background-color: #727171eb;
-      margin: auto;
-    }
-
-
-                      /*                 Projetos                 */
-
-    .Selec-Pro{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    }
-
-    .titulo{
-      height: 4vw;
-      border-bottom: 1px solid #1345fd;
-      font-size: 3vw;
-      display: flex;
-      justify-content: center;
-      margin-top: 15px;
-      align-items: center;
-    }
-
-
-    .Selec-Pro section{
-      display: flex;
-      flex-wrap: wrap;
-      width: 48vw;
-      margin-top: 15px;
-
+.nav {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-    
 
-    .Projetos{
-      width: 15vw;
-      height: 15vw;
-      background-color: #1345fd;
-      margin: 5px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .P-T{
-      color: #ffffff00;
-      width: 100%;
-      height: 100%;
-      margin: 0;
-    }
-    .P-T:hover{
-      width: 15vw;
-      height: 15vw;
-      background-color: #000000d5;
-      color: beige;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+nav {
+  margin-top: 35px;
+}
 
-    /*                    HABILIDADES                 */
+.menu .nav ul li a.active {
+  color: #1345fd;
+  font-weight: bold;
+}
 
-    .titulo-p{
-      display: flex;
-      width: 17vw;
-      margin: 0;
-      color: #1345fd;
-      justify-content: center;
-      
-    }
-    .titulo-h{
-      width: 22vw;
-    }
+ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
 
-    .sobre-tec {
-      margin-top: 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
+li {
+  margin: 10px;
+}
 
-  .titulo-hab{
-    width: 30vw;
-  }
-  .icon-hab{
-    margin-bottom: 15px;
-    background-image: url(../icon/hab.png);
+a {
+  padding: 10px;
+  color: #2e2e2e;
+  font-size: 130%;
+  text-decoration: none;
+}
 
-  }
+a:hover {
+  border-bottom: solid 2px rgb(27, 78, 243);
+  color: rgb(27, 78, 243);
+}
 
-  .hab-cursos{
-    width: 100%;
-    /* aqui é só pra ter noção do tamanho */
-    height: 20vw; 
-    background-color: #1345fd;
-  }
+.linha {
+  width: 70%;
+  height: 1px;
+  background-color: #727171eb;
+  margin: auto;
+}
 
+.Selec-Pro {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
 
+.titulo {
+  height: 4vw;
+  border-bottom: 1px solid #1345fd;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  align-items: center;
+}
 
+.Selec-Pro section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 48vw;
+  margin-top: 15px;
+}
 
-  /*                          SOBRE MIM                         */
+.Projetos {
+  width: 15vw;
+  height: 15vw;
+  background-color: #1345fd;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .icon-eu{
-    background-image: url(../icon/id-card.png);
-  }
-    
+.P-T {
+  color: #ffffff00;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.P-T:hover {
+  width: 15vw;
+  height: 15vw;
+  background-color: #000000d5;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-p {
+  display: flex;
+  width: 17vw;
+  margin: 0;
+  color: #1345fd;
+  justify-content: center;
+}
+
+.titulo-h {
+  width: 22vw;
+}
+
+.sobre-tec {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-hab {
+  width: 30vw;
+}
+
+.icon-hab {
+  margin-bottom: 15px;
+  background-image: url(../icon/hab.png);
+}
+
+.hab-cursos {
+  width: 100%;
+  height: 20vw;
+  background-color: #1345fd;
+}
+
+.icon-eu {
+  background-image: url(../icon/id-card.png);
+}
