@@ -141,8 +141,8 @@ a:hover {
 }
 
 .P-T:hover {
-  width: 15vw;
-  height: 15vw;
+  width: 100%;
+  height: 100%;
   background-color: #000000d5;
   color: beige;
   display: flex;
@@ -187,4 +187,86 @@ a:hover {
 
 .icon-eu {
   background-image: url(../icon/id-card.png);
+}
+
+
+
+/*                                    RESPONSIVO                              */
+
+
+@media (max-width: 500px) {
+/*        H1 TITULO      */
+
+    .titulo-hab {
+      width: 100%;
+    }
+
+    .titulo{
+      font-size: 30px;
+    }
+
+    .titulo-h {
+      /* SOBRE MIM */
+      width: 46vw;
+    }
+
+    .icon-conf{
+        width: 35px;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+    .titulo-p{
+      width: 45vw;
+      margin-bottom: 10px;
+    }
+    .titulo-h{
+      width: 57vw;
+    }
+    .titulo-i{
+      width: 50vw;
+    }
+
+
+/*         NAVEGAÇÃO       */
+
+  .nav nav{
+    display: none;
+  }
+
+  .logo {
+    width: 30%;
+  }
+  .nav{
+      width: 50px;
+      height: 50px;
+      background-image: url(../icon/menu.png);
+      background-size: cover;
+      background-position: center;
+      z-index: 9999;
+  }
+  .menu-nav{
+    align-items: center;
+  }
+
+
+
+/*          PROJETOS     */
+
+    .Selec-Pro section {
+      width: auto;
+      justify-content: center;
+    }
+
+    .Projetos{
+      width: 40vw;
+      height: 40vw;
+    }
+
+
+
+@media (max-width: 768px) {
+  body{
+    display: flex;
+  }
+}
 }
