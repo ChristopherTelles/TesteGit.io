@@ -1,5 +1,5 @@
-# Primeiramente Fazer um "MENU"
+# Projeto desenvolvido para fins didáticos
+
 Só para brincar com git
 
-# Pode dar uma olhada 
 https://christophertelles.github.io/TesteGit.io/
